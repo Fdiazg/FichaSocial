@@ -1,0 +1,73 @@
+
+.login {
+    border: 1px solid #C1E0F7 ;
+    background-color: #EDF6FD;
+    padding: 20px;
+}
+
+/* En la opcion de comuna borra las flechitas para arriba o abajo */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.generoAltura {
+    display: block;
+    padding: 0.375rem 0.75rem;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+}
+
+.aniosTrabajando {
+    padding-right: .5em;
+}
+
+.enviarForm {
+    padding-right: 5px;
+}
+
+.formularioIngreso {
+    border: 1px solid #C1E0F7 ;
+    padding: 5px;
+
+}
+
+.tituloFicha {
+    margin-top: 1.5em;
+}
+
+.carru {
+    padding: 1.5rem;
+    margin-right: 0;
+    margin-left: 0;
+    margin: .5rem;
+    text-align: center;
+}
+
+div.carousel-item img {
+
+    height:300px;
+}
+
+div.logoGob img {
+    width: 10%;
+}
+
+
+li {
+    list-style: none;
+}
+
+li.personal:hover {
+    background-color: #C1E0F7;
+
+}
+
+.calcDatos {
+    background-color: yellow;
+}
+
+.edad {
+    background-color: #E9ECEF;
+}
