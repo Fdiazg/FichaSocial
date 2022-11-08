@@ -5,6 +5,10 @@
     padding: 20px;
 }
 
+.carru {
+    margin: 0px 20rem 0px 20rem;
+}
+
 /* En la opcion de comuna borra las flechitas para arriba o abajo */
 input::-webkit-outer-spin-button,
 input::-webkit-inner-spin-button {

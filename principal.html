@@ -18,12 +18,12 @@
     </div>
 
     <div>
-        <h1 class="tituloFicha  text-center m-0">Capturador Social</h1>
-        <hr>
+        <h1 class="tituloFicha  text-center m-1">Capturador Social</h1>
+        <hr class="mx-4">
     </div>
     <div class="carru ">
 
-        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+        <div id="carouselExampleIndicators" class="carousel slide mx-4" data-bs-ride="carousel">
 
             <div class="carousel-indicators">
                 <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
@@ -58,8 +58,8 @@
     </div>
 
 
-    <div class="container-fluid formFichaSocial  col-12  ">
-        <div class="row  pt-2 mx-1 mt-4" id="formFicha">
+    <div class="container-fluid formFichaSocial  col-12">
+        <div class="row  pt-2 mx-5 mt-4 px-2" id="formFicha">
 
             <div class="formularioIngreso  col-md-5  px-4 mb-4" id="formularioIngreso">
                 <h2 class="text-center display-6">Formulario de registro para Ficha Social</h2>
@@ -67,25 +67,23 @@
                 <form action="" id="formFichaSocial" name="nombreForm">
                     <div class="nombre form-group mx-sm-4">
                         <label class="form-label" for="nombre"></label>
-                        <input class="form-control" type="text" id="nombre" name="nombre" placeholder="Nombre" 
-                            minlength="5" maxlength="50"
-                            required
-                            >
+                        <input class="form-control" type="text" id="nombre" name="nombre" placeholder="Nombre"
+                            minlength="5" maxlength="50" required>
                     </div>
 
                     <div class="rut form-group mx-sm-4">
                         <label for="rut" class="form-label"></label>
-                        <input type="text" class="form-control" id="rut" name="rut" placeholder="10000000-9"  required pattern="[k0-9-]{10,10}$" title="sin puntos, solo guion" min="10" max="10" >
-                            
+                        <input type="text" class="form-control" id="rut" name="rut" placeholder="10000000-9" required
+                            pattern="[k0-9-]{10,10}$" title="sin puntos, solo guion" min="10" max="10">
+
 
                     </div>
                     <div class="direccion form-group mx-sm-4">
                         <label for="direccion" class="form-label"></label>
-                        <input type="text" class="form-control" id="direccion" name="direccion" placeholder="Dirección"
-                            >
+                        <input type="text" class="form-control" id="direccion" name="direccion" placeholder="Dirección">
                     </div>
                     <div class="comuna mx-sm-4 form-group">
-                        <select class="form-select mt-4 " name="comuna" id="comuna" >
+                        <select class="form-select mt-4 " name="comuna" id="comuna">
                             <option value="-" disabled selected>Seleccione una comuna</option>
                             <option value="Cerro Navia">Cerro Navia</option>
                             <option value="Conchalí">Conchalí</option>
@@ -109,24 +107,26 @@
                         <div class="input-group">
                             <div class="input-group-text">+56</div>
                             <input type="number" class="form-control" id="telefono" placeholder="Telefono"
-                                name="telefono" >
+                                name="telefono">
                         </div>
                     </div>
                     <div class=" correo mx-sm-4 form-group">
                         <label for="correo" class="form-label"></label>
-                        <input type="email" class="form-control" id="email" name="email" placeholder="Correo " required pattern="^[_a-z0-9-]+(.[_a-z0-9-]+)*@[a-z0-9-]+(.[a-z0-9-]+)*(.[a-z]{2,4})$" >
+                        <input type="email" class="form-control" id="email" name="email" placeholder="Correo " required
+                            pattern="^[_a-z0-9-]+(.[_a-z0-9-]+)*@[a-z0-9-]+(.[a-z0-9-]+)*(.[a-z]{2,4})$">
                     </div>
                     <div class="mx-sm-4">
                         <div class="input-group">
                             <div class="col-sm-8 px-0 col-8 col-md-7">
                                 <label for="fechaNacimiento" class="form-label"></label>
                                 <input type="date" class="form-control" id="fechaNacimiento" name="fechaNacimiento"
-                                    placeholder="Fecha de nacimiento"  min="1930-01-01" max="2010-12-31">
+                                    placeholder="Fecha de nacimiento" min="1930-01-01" max="2010-12-31">
                             </div>
                             <div class=" px-0 col-4 col-md-5">
                                 <label for="edad" class="form-label"></label>
                                 <div class="input-group edad">
-                                    <span id="edad" class="form-control input-group-text justify-content-center " title="edad" >edad</span>
+                                    <span id="edad" class="form-control input-group-text justify-content-center "
+                                        title="edad">edad</span>
                                     <div class="input-group-text">años</div>
                                 </div>
 
@@ -138,25 +138,25 @@
                             <label for="">Seleccione su genero</label>
                             <div class="custom-control custom-radio  " id="checkGenero">
                                 <input type="radio" class="custom-control-input" value="Hombre" id="checkHombre"
-                                    name="checkGenero" >
+                                    name="checkGenero">
                                 <label for="checkHombre" class="form-check-label">Hombre</label>
                             </div>
                             <div class="custom-control custom-radio" id="checkGenero">
                                 <input type="radio" class="custom-control-input" value="Mujer" id="checkMujer"
-                                    name="checkGenero" >
+                                    name="checkGenero">
                                 <label for="checkMujer" class="form-check-label">Mujer</label>
                             </div>
                         </div>
                         <div class="estatura  col-sm-7 ">
                             <label for="" class="form-label">Seleccione su estatura</label>
                             <input type="range" class="form-range " id="rangoEstatura" min="1.3" max="2.2" step="0.01"
-                                name="rangoEstatura" >
+                                name="rangoEstatura">
                             <p>Estatura: <span id="valor"></span> metros</p>
                         </div>
                     </div>
                     <div class="nivelEducacional input-group mt-4 ">
                         <div class="nivelEducacional col-sm mx-sm-4 col-6">
-                            <select class="form-select" name="nivelEducacional" id="nivelEducacional" >
+                            <select class="form-select" name="nivelEducacional" id="nivelEducacional">
                                 <option value="" disabled selected>Seleccione Nivel educacional escolar</option>
                                 <option value="1° Básico">1° Básico</option>
                                 <option value="2° Básico">2° Básico</option>
@@ -176,7 +176,7 @@
 
                     <div class="trabajoRemu row-cols-12 mx-sm-4">
                         <div class="col-sm-auto form-check form-switch mt-4">
-                            <input class="form-check-input trabajo" type="checkbox" id="trabajoCheck" >
+                            <input class="form-check-input trabajo" type="checkbox" id="trabajoCheck">
                             <label class="form-check-label trabajo" for="trabajoCheck">¿Se encuentra trabajando?</label>
                         </div>
                         <div class="input-group">
@@ -207,7 +207,7 @@
                         <div class="row col-auto ">
                             <div class="mt-4">
                                 <label class="form-label" for="enviarForm"></label>
-                                <input id="enviarForm" type="submit" class=" btn btn-primary" value="Enviar formulario" >
+                                <input id="enviarForm" type="submit" class=" btn btn-primary" value="Enviar formulario">
                                 <input id="limpiarForm" type="reset" class="btn btn-danger" value="Limpiar">
                             </div>
                         </div>
@@ -292,7 +292,7 @@
                     <li class="personal">Felipe Díaz</li>
                     <li class="personal">Técnico en programación y análisis de sistemas</li>
                     <li class="personal">Taller de aplicaciones para internet</li>
-                    <li class="personal">PRO301</li>
+                    <li class="personal"></li>
                 </ul>
             </div>
         </footer>
@@ -301,10 +301,10 @@
 
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
         integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous">
-        </script>
+    </script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
         integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous">
-        </script>
+    </script>
     <script src="./scripts/formulario.js"></script>
     <script src="./scripts/jquery-3.6.0.min.js"></script>
 
