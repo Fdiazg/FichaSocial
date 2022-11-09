@@ -75,3 +75,7 @@ li.personal:hover {
 .edad {
     background-color: #E9ECEF;
 }
+
+#edad {
+    max-width: 100%;
+}
